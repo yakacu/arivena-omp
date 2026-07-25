@@ -2,14 +2,14 @@
 
 Panduan singkat untuk memasang dan menjalankan gamemode Arivena Roleplay berbasis open.mp.
 
-## Persiapan Alat
+## Tool
 
 Sebelum memulai, siapkan beberapa kebutuhan berikut di komputer mu:
 
 - **MySQL / MariaDB**: Bisa menggunakan XAMPP, Laragon, atau HeidiSQL.
 - **sampctl**: Digunakan untuk mengkompilasi gamemode.
 
-## Cara Install dan Setup
+## How to Install and Setup
 
 ### 1. Install sampctl
 
@@ -53,7 +53,7 @@ Sebelum memulai, siapkan beberapa kebutuhan berikut di komputer mu:
 - Import file database `.sql` yang ada di folder `database` proyek ini.
 - Sesuaikan kredensial MySQL (host, user, password, nama database) di file `mysql.ini`.
 
-### 3. Kompilasi Gamemode
+### 3. Compile
 
 - Buka terminal atau Command Prompt di folder utama proyek ini.
 - Jalankan perintah kompilasi:
@@ -62,9 +62,25 @@ Sebelum memulai, siapkan beberapa kebutuhan berikut di komputer mu:
   ```
 - Atau kompilasi file `gamemodes/main.pwn` ke `gamemodes/main.amx` menggunakan Pawn compiler secara manual.
 
-### 4. Menjalankan Server
+### 4. Running
 
 - Setelah file `main.amx` berhasil dibuat, jalankan server:
     - **Windows**: Buka `omp-server.exe`
     - **Linux**: Jalankan `./omp-server` (jika ada plugin yang tidak ter-upload, kamu bisa mencarinya atau menambahkannya sendiri)
 - Server sudah berjalan dan bisa diakses melalui client SA-MP / open.mp menggunakan IP `localhost:7777` atau `127.0.0.1:7777`.
+
+---
+
+## Thanks For
+
+- **Creator asli**: [mhyunata](https://github.com/mhyunata)
+- **Optimasi dan migrasi ke open.mp**: [yakacu](https://github.com/yakacu)
+- **Semua Kontributor**
+
+---
+
+## Help & Discussion
+
+Jika ada pertanyaan, kendala, atau sekadar ingin diskusi seputar gamemode ini, silakan bergabung ke server Discord saya:
+
+[**MartinLabs**](https://discord.gg/xjtXtRx8nk)
