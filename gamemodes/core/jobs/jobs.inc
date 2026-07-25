@@ -1,0 +1,13 @@
+#include <jobs/farmer/farmer>
+#include <jobs/fisherman/fisherman>
+#include <jobs/lumberjack/lumberjack>
+#include <jobs/miner/miner>
+#include <jobs/butcher/butcher>
+#include <jobs/oilman/oilman>
+#include <jobs/supirangkot/supirangkot>
+#include <jobs/cargo/cargo>
+#include <jobs/pelaut/pelaut>
+#include <jobs/peternak/peternak>
+#include <jobs/porter/porter>
+#include <jobs/supirmixer/supirmixer>
+#include <jobs/tailor/tailor>

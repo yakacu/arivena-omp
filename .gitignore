@@ -1,0 +1,15 @@
+# Ignore compiled binary gamemodes
+*.amx
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+crashdetect.log
+mysql.log
+
+# Ignore OS & Editor metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/

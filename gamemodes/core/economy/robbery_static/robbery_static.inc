@@ -1,0 +1,1 @@
+#include <economy/robbery_static/robbery_bank/rbank>
