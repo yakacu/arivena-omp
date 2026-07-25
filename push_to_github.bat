@@ -8,6 +8,11 @@ echo ========================================================
 echo Repository: https://github.com/yakacu/arivena-omp
 echo.
 
+echo [INFO] Mengkonfigurasi Git buffer untuk mencegah HTTP 408 timeout...
+git config http.postBuffer 524288000
+git config http.lowSpeedLimit 0
+git config http.lowSpeedTime 999999
+
 if not exist ".git" (
     echo [INFO] Inisialisasi Git repository...
     git init
@@ -20,7 +25,9 @@ if not exist ".git" (
 echo [INFO] Mengatur branch utama ke 'main'...
 git branch -M main
 
-echo [INFO] Menambahkan file ke staging area...
+echo [INFO] Menilai ulang file yang sudah di-stage...
+git rm -r --cached . >nul 2>&1
+echo [INFO] Menambahkan file baru ke staging area...
 git add .
 
 echo.
